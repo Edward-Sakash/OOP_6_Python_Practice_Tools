@@ -5,8 +5,11 @@ class Tool:
 
 
 # Write your code here to implement the Laptop class correctly
-class Laptop:
-    pass
+"""class Laptop:
+    pass"""
 
+class Laptop(Tool):
+    def work(self):
+        print("Laptop is running")
 
 

@@ -28,6 +28,8 @@ python src/check_1.py
 Consider the following class diagram:
 ![class diagram](class_diagram.PNG)
 
+
+
 The class ``Worker`` is the abstract base class and its subclasses are ``Programmer`` and ``Janitor``.
 Complete the code in file ``src/worker.py`` so that:
 - [ ] The class ``Worker`` is an abstract class i.e., it inherits from the *Abstract Base Class* ``ABC``.
